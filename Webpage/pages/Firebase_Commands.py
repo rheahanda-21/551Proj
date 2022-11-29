@@ -6,10 +6,10 @@ import ast
 import numpy as np
 import streamlit as st
 
-st.write('EDFS Commands with Firebase Database')
+st.write('EDFS Commands with Firebase Database           (command /foldername/filename)')
 command = st.text_input('Enter a command:')
 com = command.split(' ')
-st.write('command /foldername/filename')
+# st.write('command /foldername/filename')
 
 if len(com) > 1:
     if com[0] == 'ls':
