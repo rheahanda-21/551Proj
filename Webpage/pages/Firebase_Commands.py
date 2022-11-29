@@ -6,8 +6,8 @@ import ast
 import numpy as np
 import streamlit as st
 
-st.write('EDFS Commands with Firebase Database:           (command /foldername/filename)')
-command = st.text_input('Enter a command:')
+st.write('EDFS Commands with Firebase Database:')
+command = st.text_input('Enter a command: (command /foldername/filename)')
 com = command.split(' ')
 st.write('*Commands must follow the specified format!')
 
