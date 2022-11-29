@@ -90,6 +90,7 @@ bedroom = st.text_input('Enter number of bedrooms: (1, 2, or 3):')
 state = st.text_input('Enter state: (ex. NY):')
 coname = st.text_input('Enter county name: (ex. Queens):')
 year = st.text_input('Enter date in the format of yyyy-mm: (ex. 2011-01):')
+st.write('Commands must follow the specified format!')
 
 if bedroom == '1':
     map_one(year,state,coname)
