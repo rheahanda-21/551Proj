@@ -9,7 +9,7 @@ import streamlit as st
 st.write('EDFS Commands with Firebase Database:           (command /foldername/filename)')
 command = st.text_input('Enter a command:')
 com = command.split(' ')
-st.write('commands must follow the specified format')
+st.write('*Commands must follow the specified format!')
 
 if len(com) > 1:
     if com[0] == 'ls':
